@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PDFsharp" Version="1.50.5147" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.0-beta0006" />
+    <PackageReference Include="ZXing.Net" Version="0.16.4" />
+    <PackageReference Include="ZXing.Net.Bindings.ImageSharp" Version="0.16.7-beta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ImageProcessing.Domain\ImageProcessing.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

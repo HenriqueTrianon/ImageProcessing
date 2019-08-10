@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+    <PackageReference Include="SimpleInjector" Version="4.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ImageProcessing.Aplication\ImageProcessing.Aplication.csproj" />
+    <ProjectReference Include="..\ImageProcessing.Domain\ImageProcessing.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
